@@ -11,7 +11,7 @@ class user_sedeer extends Seeder
      */
     public function run()
     {
-        $name = ['Admin','Super Admin','User'];
+        $name = ['Admin','User'];
 
         for($i=0;$i<count($name);$i++){
             $role = App\Role::create([
